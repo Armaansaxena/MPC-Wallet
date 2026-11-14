@@ -1,8 +1,5 @@
-# MPC Wallet
-
-A threshold multi-party computation (MPC) wallet built in TypeScript. Three parties jointly control a wallet where the private key never exists in any single place — not during key generation, not during signing, not ever.
-
-This is the same architecture used by Fireblocks, Coinbase MPC Wallet, and ZenGo.
+# MPC Wallet (educational prototype). 
+A 3-party wallet with working Feldman-VSS distributed key generation and a WebSocket relay, broadcasting to Sepolia. The threshold-signing step is a simplified demonstration and does not produce cryptographically correct threshold ECDSA (see Known Limitations). Not for real funds. Phase 2 will replace it with an audited FROST/GG20 implementation.
 
 ## What It Does
 
