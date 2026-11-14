@@ -1,0 +1,4 @@
+node_modules/
+dist/
+dkg-output.json
+.env
